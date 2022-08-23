@@ -12,6 +12,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
+      vue: 'vue/dist/vue.esm-bundler.js',
       "@": resolve(__dirname, "src"),
       "@g": resolve(__dirname, "src/global"),
       "@antv/x6": "@antv/x6/lib",
